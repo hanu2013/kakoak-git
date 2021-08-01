@@ -112,8 +112,8 @@ h5, .txt-time, .txt-number, h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 169, 64, 0)), to(#F7A940));
-  background: linear-gradient(180deg, rgba(247, 169, 64, 0) 0%, #F7A940 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 169, 64, 0)), to(#ff9b2c));
+  background: linear-gradient(180deg, rgba(247, 169, 64, 0) 0%, #ff9b2c 100%);
   padding-top: 3.938rem;
   text-align: left;
   padding-bottom: 1rem;

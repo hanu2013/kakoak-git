@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'MontserratExtraBold';
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'MontserratLight';
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: 'MontserratThin';
+  src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+body {
+  font-family: 'MontserratMedium', Arial, Helvetica, sans-serif;
+  background-color: #000;
+  font-size: 12px;
+  background-color: #f8a941;
+}
+
+h5, .txt-time, .txt-number, h2 {
+  color: #070D5B;
+  text-align: center;
+}
+
+.txt-highlight {
+  font-family: 'MontserratBold';
+}
+
+.txt-small {
+  font-size: 10px;
+}
+
+.frm {
+  background-color: #fff;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-color: #ff9b2c;
+  color: #141E40;
+  text-align: center;
+}
+
+.frm .ctn h5 {
+  font-size: 14px;
+  font-family: 'MontserratExtraBold';
+}
+
+.frm .ctn .txt-highlight {
+  margin-top: 1.688rem;
+}
+
+.frm .ctn .img {
+  margin: .5rem 0;
+}
+
+.frm .ctn .img img {
+  height: 4.173rem;
+}
+
+.frm .ctn header {
+  background-image: url(../images/confetti.png);
+  background-repeat: no-repeat;
+  background-position: center -3.125rem;
+  background-size: 100% auto;
+  width: 100%;
+}
+
+.frm .ctn header .logo img {
+  margin-top: 2rem;
+  margin-bottom: 0.875rem;
+  margin-right: 1.563rem;
+  height: 5.779rem;
+}
+
+.frm .ctn .lik-app img {
+  height: 1.841rem;
+  margin: 0 0.2rem;
+}
+
+.frm .ctn .lik-picture {
+  margin-top: 0.75rem;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+.frm .ctn .lik-picture img {
+  width: 100%;
+}
+
+.frm .ctn .lik-picture .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 169, 64, 0)), to(#F7A940));
+  background: linear-gradient(180deg, rgba(247, 169, 64, 0) 0%, #F7A940 100%);
+  padding-top: 3.938rem;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.frm .txt-justify {
+  text-align: justify;
+  display: block;
+  width: 19.938rem;
+  margin: 0 auto;
+}
+
+.frm .ctn-inner {
+  padding: 0 1.188rem;
+}
+
+@media (min-width: 768px) {
+  .frm {
+    width: 500px;
+  }
+}
+
+@media (max-width: 320px) {
+  .frm .txt-justify {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
